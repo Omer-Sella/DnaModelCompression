@@ -1,16 +1,19 @@
 # dna_archival_storage
 This repository builds on the brilliant work of [Jasmine Quah](https://github.com/jasminequah)
-## Setup
+## Setup 
 To clone repository and submodules:
 ```
 git clone --recursive https://github.com/jasminequah/dna_archival_storage
 cd dna_archival_storage
 git clone https://github.com/Omer-Sella/turboDNA
 ```
-
 If running basic simulation (no basecalling), only standard libraries used.
-
-If running simulation with raw signal simulation using Scrappie & Bonito basecalling, run `./setup.sh` first. A GPU is required to run the Bonito basecaller.
+## Setup on Department of Computing (DoC) GPU resources
+### Setting up a virtual environment
+Working on gpu35.doc.ic.ac.uk (replace 35 with other numbers to get other machines):
+1. Set up ssh access.
+2. Set up visual studio code with ssh remote access. Note that VS code attempts to download vscode server to /home/user/, but DoC convention is to use /homes/user/ - so you would need to change that in VS preferences.
+3. Virtual environment: At the time of writing it looks like pyenv is the only option. 
 
 
 ## Simulator Usage
