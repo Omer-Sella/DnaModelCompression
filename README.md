@@ -1,5 +1,5 @@
 # dna_archival_storage
-
+This repository builds on the brilliant work of [Jasmine Quah](https://github.com/jasminequah)
 ## Setup
 To clone repository and submodules:
 ```
